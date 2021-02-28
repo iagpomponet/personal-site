@@ -1,0 +1,30 @@
+.header {
+  background-color: #14213D;
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  padding: 0 1rem;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+}
+
+.nav li {
+  color: #fca311;
+  font-size: 20px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  width: 100%;
+}
